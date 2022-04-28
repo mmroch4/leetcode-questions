@@ -19,7 +19,7 @@ const containsDuplicate = (array) => {
 ## **Syntax**
 
 ```ts
-containsDuplicate(array: Array<any>)
+containsDuplicate(array: Array<any>): boolean
 ```
 
 ## **Return**
