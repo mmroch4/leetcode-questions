@@ -6,8 +6,8 @@ const isValidAnagram = (s, t) => {
   s.toLowerCase();
   t.toLowerCase();
   
-  const S = s.split('').sort().join();
-  const T = t.split('').sort().join();
+  const S = s.split('').sort().join('');
+  const T = t.split('').sort().join('');
 
   return S === T;
 };
